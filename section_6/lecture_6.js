@@ -18,13 +18,36 @@ const person = [
 
 //console.log(person)
 
+// const findPerson = function(person, personName){
+//     const index = person.findIndex(function(element, index){
+//         return element.firstName.toLowerCase() === personName.toLowerCase()
+//     })
+
+//     return person[index]
+
+// }
+// const searchResult = findPerson(person, 'maxxx')
+// console.log(searchResult)
+
+// const searchResult = findPerson(person, 'vishal')
+// console.log(searchResult)
+
 const findPerson = function(person, personName){
-    const index = person.findIndex(function(element, index){
+    return  person.find(function(element, index){
         return element.firstName.toLowerCase() === personName.toLowerCase()
     })
 
-    return person[index]
-
+    
 }
-const searchResult = findPerson(person, 'maxxx')
+const searchResult = findPerson(person, 'max')
 console.log(searchResult)
+
+
+
+
+
+
+
+
+
+
