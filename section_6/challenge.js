@@ -36,5 +36,5 @@ const account = {
 
 account.addExpense('burger', 950)
 account.addExpense('tea', 2)
-account.addIncome('job',1000)
+account.addIncome('job',1000)localStorage
 account.getAccountSummary()

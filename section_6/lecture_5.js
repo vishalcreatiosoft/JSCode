@@ -25,7 +25,7 @@ const Student = [
 
 // let result = Student.findIndex(function(element, index){
 //      //console.log(element)
-//      return element._id === 105
+//      return element._id === 103
 // })
 
 // console.log(result)
