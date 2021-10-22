@@ -8,9 +8,23 @@
     // }
     // add (11,12,13)
 
- 
- 
 
+    
+ const car = {
+    color : 'red',
+    getSummary : ()=>{
+        return `The car is ${this.color}`
+    }
+
+    // getSummary(){
+    //     return `The car is ${this.color}`
+    // }
+    // getSummary : function(){
+    //     return `The car is ${this.color}`
+    // }
+ }
+ 
+console.log(car.getSummary())
 
 
 

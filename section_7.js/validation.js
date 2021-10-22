@@ -25,8 +25,22 @@
 //     item.textContent = "vishal ..."
 // })
  
-//Challenge
+//lecture 53
 
+// document.querySelector('#create-note').addEventListener('click',function(e){
+//     console.log("Note created")
+    
+// })
+// document.querySelector('#remove-all').addEventListener('click',function(e){
+//     document.querySelectorAll('.p-note').forEach(function(note){
+//         note.remove()
+//     })
+    
+// })
+
+// document.querySelector('button').addEventListener('click',function(e){
+//    e.target.textContent = 'The button is clicked'
+// })
 
 
 
