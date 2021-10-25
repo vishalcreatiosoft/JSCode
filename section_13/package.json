@@ -1,0 +1,15 @@
+{
+  "name": "section_13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "build": "babel src/index.js --out-file public/scripts/bundle.js -watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.15.8"
+  }
+}
